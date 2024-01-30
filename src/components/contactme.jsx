@@ -14,27 +14,39 @@ const Contact = () => {
                     </button>
                 </a>
 
-                <div className='flex flex-row gap-6 mb-10 '>
-                    {/* LinkedIn */}
-                    <a href="http://linkedin.com/in/saurabh-kumar-96667220a" target="_blank" rel="noopener noreferrer">
-                        <FaLinkedin className="w-6 h-6 text-blue-600 hover:text-blue-800" />
-                    </a>
+                <div className='flex flex-col md:flex-row overflow-hidden gap-6 bg-[#2D2E32] w-full h-40 justify-between justify-center items-center '>
+    
+                    <div className='my-auto text-xl text-white ml-8 '>
+                        <h4 className='font-semibold'>Copyright © 2024. All rights are reserved</h4>
+                    </div>
 
 
-                    {/* Github */}
-                    <a href="https://github.com/Saurabh23089" target="_blank" rel="noopener noreferrer">
-                        <FaGithub className="w-6 h-6 text-gray-600 hover:text-gray-800" />
-                    </a>
+                    <div className='flex flex-row items-center justify-center my-auto md:mr-20 gap-4'>
+                        {/* LinkedIn */}
+                        <a href="http://linkedin.com/in/saurabh-kumar-96667220a" target="_blank" rel="noopener noreferrer" className="" >
+                            <FaLinkedin className="w-8 h-8 text-blue-100 hover:text-blue-800 " />
+                        </a>
 
-                    {/* Twitter */}
-                    <a href="https://twitter.com/Saurabh66998263" target="_blank" rel="noopener noreferrer">
-                        <FaXTwitter className="w-6 h-6 text-gray-600 hover:text-gray-800" />
-                    </a>
 
-                    {/* Instagram */}
-                    <a href="https://www.instagram.com/saurabh__2508/" target="_blank" rel="noopener noreferrer">
-                        <FaInstagram className="w-6 h-6 text-gray-600 hover:text-gray-800" />
-                    </a>
+                        {/* Github */}
+                        <a href="https://github.com/Saurabh23089" target="_blank" rel="noopener noreferrer">
+                            <FaGithub className="w-8 h-8 text-gray-100 hover:text-gray-800" />
+                        </a>
+
+                        {/* Twitter */}
+                        <a href="https://twitter.com/Saurabh66998263" target="_blank" rel="noopener noreferrer">
+                            <FaXTwitter className="w-8 h-8 text-gray-100 hover:text-gray-800" />
+                        </a>
+
+                        {/* Instagram */}
+                        <a href="https://www.instagram.com/saurabh__2508/" target="_blank" rel="noopener noreferrer">
+                            <FaInstagram className="w-8 h-8 text-gray-100 hover:text-gray-800" />
+                        </a>
+                    </div>
+
+
+
+                   
                     
 
                 </div>

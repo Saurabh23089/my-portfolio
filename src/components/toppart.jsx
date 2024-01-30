@@ -18,12 +18,12 @@ function classNames(...classes) {
 
 export default function Example() {
   return (
-    <Disclosure as="nav" className="bg-white-800 mb-20 overflow-hidden">
+    <Disclosure as="nav" className="fixed bg-blend-overlay z-50 bg-white-800  ">
       {({ open }) => (
         <>
           <div className="absolute top-0 w-screen mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
             <div className="relative flex h-16 items-center justify-between">
-              <div className="absolute inset-y-0 left-auto right-0 flex items-center sm:hidden">
+              <div className="absolute inset-y-0 left-auto right-0 flex items-center  vs:hidden">
                 {/* Mobile menu button*/}
                 <Disclosure.Button className="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
                   <span className="relative -inset-0.5" />
@@ -39,7 +39,7 @@ export default function Example() {
                 <div className="flex flex-shrink-0 items-center">
                  <p>Saurabh Kumar</p>
                 </div>
-                <div className="hidden sm:ml-auto sm:block">
+                <div className="hidden sm:ml-auto vs:block">
                   <div className="flex justify-end space-x-8">
                     {navigation.map((item) => (
                       <a

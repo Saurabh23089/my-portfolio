@@ -35,10 +35,14 @@ import { useInView} from '@react-spring/web'
 const ProjectList = () => {
 
   const [projects,setprojects]=useState([]);
+  
   // const [ref, inView] = useInView()
+
+  
 
   const [ref, springs] = useInView(
     () => ({
+      
       from: {
         opacity: 0,
        x:10,
@@ -50,9 +54,33 @@ const ProjectList = () => {
       },
     }),
     {
-      rootMargin: '850px 0px'
+      rootMargin: '550px 0px 550px 0px',
+      once:true
+      // rootMargin:'60% 0% 40% '
+        //  rootMargin:'100% 0% 100% 0%'
+        // rootMargin: '0% 0% 50% 0%'
+        // rootMargin:'0% 0% -10% 0%'
+        // rootMargin:'20% 20% -20% 0%',
+       
+        
     }
   )
+
+  useEffect(() => {
+    const handleResize = () => {
+      // Update the rootMargin when the window is resized
+      const newRootMargin = calculateRootMargin();
+      inViewRef.current && inViewRef.current.setRootMargin(newRootMargin);
+    };
+
+    window.addEventListener('resize', handleResize);
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, [ref]);
+
+  
 
 
   
@@ -93,7 +121,7 @@ const ProjectList = () => {
   return (
     <div className='relative w-screen overflow-hidden '>
        {/* <div className='relative w-screen overflow-hidden '> */}
-      <h3  className='text-blue-900 overflow-hidden whitespace-normal md:whitespace-prewrap ml-5 mb-4 text-center md:text-start'>PROJECTS</h3>
+      <h3  className='text-blue-900 overflow-hidden whitespace-normal md:whitespace-prewrap ml-8 text-[#147EFB] font-bold mb-4 text-center lg:text-start'>PROJECTS</h3>
        
 
       {projects && projects.map((proj, index) => {
@@ -104,17 +132,17 @@ const ProjectList = () => {
             {/* Your project card JSX here */}
 
             <div className='border-2 shadow-md m-10 rounded-md'>
-        <div className='flex flex-col md:flex-row m-4 md:m-10 gap-10 '>
-          <div className='flex-col w-full md:w-1/2 h-50 '>
-            <img src={proj.projectimage} alt="firstprojimage" className='rounded-md h-80  w-full' />
+        <div className='flex flex-col lg:flex-row m-4 md:m-10 gap-10 '>
+          <div className='flex-col w-full lg:w-1/2 lg:h-50 '>
+            <img src={proj.projectimage} alt="firstprojimage" className='rounded-md h-80   w-full' />
           </div>
-          <div className='md:w-1/2'>
-            <h1 className='text-lg md:text-5xl  md:m-0 text-center md:text-start'>{proj.title}</h1>
-            <p className='mt-6 md:mt-2 text-center md:text-start'>{proj.description}</p>
+          <div className='lg:w-1/2'>
+            <h1 className='text-lg md:text-5xl  md:m-0 text-center lg:text-start'>{proj.title}</h1>
+            <p className='mt-6 md:mt-2 text-center lg:text-start'>{proj.description}</p>
             
            
             
-            <div className='flex flex-row flex-wrap gap-5 border-white break-normal text-center justify-center md:justify-start text-sm md:text-md'>
+            <div className='flex flex-row flex-wrap gap-5 border-white break-normal text-center justify-center lg:justify-start text-sm lg:text-md'>
              
             
 
@@ -122,7 +150,7 @@ const ProjectList = () => {
 
 {proj.techstack.map((tech) => {
                return (
-                <div className='flex flex-row flex-wrap gap-5 border-white mt-10 break-normal text-center justify-center md:justify-start text-sm md:text-md'> 
+                <div className='flex flex-row flex-wrap gap-5 border-white mt-10 break-normal text-center justify-center lg:justify-start text-sm lg:text-md'> 
                 <p className='p-1.5 border-2 shadow-md'>{tech}</p>
                </div>
                )
@@ -132,9 +160,9 @@ const ProjectList = () => {
 
 
             </div>
-            <div className='flex flex-row mt-10 ml-0 md:gap-10 gap-4 justify-center md:justify-start'>
+            <div className='flex flex-row mt-10  md:gap-10 lg:gap-8 gap-4 justify-center lg:ml-4 lg:justify-start'>
               <div className='flex flex-center'> 
-              <p className='flex gap-2 lg:pl-20 md:text-lg text-sm items-center'>Code <a href="https://github.com/Saurabh23089" target="_blank" rel="noopener noreferrer">
+              <p className='flex gap-2  md:text-lg text-sm items-center'>Code <a href="https://github.com/Saurabh23089" target="_blank" rel="noopener noreferrer">
                 <FaGithub className="w-8 h-8 text-gray-600 hover:text-gray-800 text-2xl" />
               </a></p>
               </div>
