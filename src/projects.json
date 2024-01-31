@@ -1,36 +1,39 @@
 
+
+
+
      [
         {
                 "title":"Movie Directory Project",
                 "description":"I am working on an eCommerce designed in Figma to pass into code to improve my skills with new technologies to be able to get a job.",
-                "projectimage":"https://images.unsplash.com/photo-1541963463532-d68292c34b19?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Ym9va3xlbnwwfHwwfHx8MA%3D%3D",
+                "projectimage":"./src/images/Project1.jpg",
                 "techstack":["HTML","CSS","Javascript","ReactJS","Firebase"],
-                "deployed":"https://github.com/Saurabh23089",
-                "github":"https://github.com/Saurabh23089"
+                "deployed":"https://moviezzsite.netlify.app/",
+                "github":"https://github.com/Saurabh23089/project2"
                 
             },
        
 
       
             {
-                "title":"Movie Directory Project",
+                "title":"Calculator",
                 "description":"I am working on an eCommerce designed in Figma to pass into code to improve my skills with new technologies to be able to get a job.",
-                "projectimage":"https://images.unsplash.com/photo-1541963463532-d68292c34b19?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Ym9va3xlbnwwfHwwfHx8MA%3D%3D",
-                "techstack":["HTML","CSS","Javascript","ReactJS","Firebase"],
-                "deployed":"https://github.com/Saurabh23089",
-                "github":"https://github.com/Saurabh23089"
+                "projectimage":"./src/images/Project2.jpg",
+                "techstack":["HTML","CSS","Javascript"],
+                "deployed":"https://saurabh23089.github.io/Ganit-Mitra/",
+                "github":"https://github.com/Saurabh23089/Ganit-Mitra"
                 
             },
        
 
         
             {
-                "title":"Movie Directory Project",
+                "title":"Random Quote Generator",
                 "description":"I am working on an eCommerce designed in Figma to pass into code to improve my skills with new technologies to be able to get a job.",
-                "projectimage":"https://images.unsplash.com/photo-1541963463532-d68292c34b19?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Ym9va3xlbnwwfHwwfHx8MA%3D%3D",
-                "techstack":["HTML","CSS","Javascript","ReactJS","Firebase"],
-                "deployed":"https://github.com/Saurabh23089",
-                "github":"https://github.com/Saurabh23089"
+                "projectimage":"./src/images/Project3.jpg",
+                "techstack":["HTML","CSS","Javascript","ReactJS"],
+                "deployed":"https://saurabh23089.github.io/react-project1/",
+                "github":"https://github.com/Saurabh23089/react-project1"
                 
             }
         
