@@ -16,7 +16,8 @@ export default {
     //   // 'desktop': '1280px',
     //   // // => @media (min-width: 1280px) { ... }
     'lg':'900px',
-    'vs':'600px'
+    'vs':'600px',
+    'vl':'1250px'
     }
     
   },
