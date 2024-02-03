@@ -5,30 +5,7 @@ import { FaLinkedin, FaGithub } from 'react-icons/fa';
 import {useState,useEffect,useRef} from 'react';
 import { useInView} from '@react-spring/web'
 
-// const projects = [
-//   // Your project data goes here
-//   { id: 1, name: 'Project 1', description: 'Description 1' },
-//   { id: 2, name: 'Project 2', description: 'Description 2' },
-//   // Add more projects as needed
-// ];
 
-// const ProjectCard = ({ project, index }) => {
-//   const props = useSpring({
-//     opacity: 1,
-//     transform: 'translateX(0)',
-//     from: { opacity: 0, transform: 'translateX(-50px)' },
-//     delay: index * 100, // Adjust the delay based on your preference
-//   });
-
-//   return (
-//     <animated.div style={props}>
-//       <div style={{ minWidth: '300px', marginRight: '20px', padding: '20px' }}>
-//         <h2>{project.name}</h2>
-//         <p>{project.description}</p>
-//       </div>
-//     </animated.div>
-//   );
-// };
 
 const ProjectList = () => {
 
