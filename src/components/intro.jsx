@@ -1,12 +1,16 @@
 import { FaLinkedin, FaGithub } from 'react-icons/fa';
+import myimage from '../myimage.jpg';
 
 
 const Intro = () => {
+
+    
+
     return (
         <div className="bg-[#F9F9F9] w-full relative overflow-hidden top-20 shadow-md mb-10" id="home">
             <div className="relative w-screen lg:grid lg:grid-cols-2 pt-12">
                 <div className="relative inset-x-1/4 vs:inset-x-1/3 pt-2 lg:order-1">
-                    <img src="https://beingselfish.in/wp-content/uploads/2023/07/mahadev-dp02.jpg" alt="sabkamaalikek" className=" w-56 h-56 vs:w-72 vs:h-72 rounded-full" />
+                    <img src={myimage} alt="Saurabh's image" className=" w-56 h-56 vs:w-72 vs:h-72 rounded-full" />
                 </div>
                 <div className="">
                     <h1 className='mt-4  font-bold text-center sm:text-6xl text-5xl text-[#0d0d0d] whitespace-normal'>Full Stack Web</h1>
@@ -38,9 +42,6 @@ const Intro = () => {
                 <div className='rounded-full border-white bg-white border-12 h-20 w-20 object-center'>
                     <img src="https://1000logos.net/wp-content/uploads/2020/08/MongoDB-Emblem.jpg" alt="JS logo" className='w-10 h-10 overflow-none inset-1/4 relative' />
                 </div>
-                 {/* <div className='rounded-full border-white bg-white border-12 h-20 w-20 object-center'>
-                    <img src="https://webimages.mongodb.com/_com_assets/cms/kuyjf3vea2hg34taa-horizontal_default_slate_blue.svg?auto=format%252Ccompress" alt="JS logo" className='w-10 h-10 overflow-none inset-1/4 relative' />
-                </div> */}
                 <div className='rounded-full border-white bg-white border-12 h-20 w-20 object-center'>
                     <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAADWklEQVRYhdWWTWgcZRzGf+/s1lSdpBVp3YS2KIo1H7tJQE8K2ta0ShXsob3Yo17EguAHePekXkRvIogiomKi1KAgHjzqRdqUYBU8tGCTxpBNm/16Z9738TC7m6TubvYjVnwv88LMPL9nnvn/Z/7wf1iaGZvWd0d2/Rva6S3hX09mKP15grgQA6e220Cw5RVRPosBXPGkZh/ed/MN+CiHBHgoXPro5huQz4KSvSse0le5yfqpmbHDmhmd6sXAljUAfjyhCRBUlj4GxgAoL3yPfACYbg20kYBydTiAK41qevgRfb7/DLIBitBn+17/x23nj0/ol0ff3Uq+pXOVP0gx/VqcXKV6CqLvNxfFQ+l0FCbGUphn83UtzT0zSuXSBXCYB8+1ZLRO4OwbExhtgmMgWirdX/7LhVI1FUXo08E3q/BhKpcvgEvMnnv8QPcGXDmbAGqvQMiJeAWCgqNSDqi/mjj/qvvpqYewl+chrhoDopWJ7g3gxjfCMWCXhAmEQcQrQl4gS5zaQ5Be+BnV4FrX6NpAvQUTMR8Jt5oYERAUHeWCI04Pkh7OgKIb4ALUSwJa/wYYES0JAlAtFWeJK3sTuKs0goPUSwJub03UV8Bd3yAcW3x/hv7HMhA3gteWv7crA5o+eAD5RDQQdknUO8Il8PDoIETN4LWjR+en9nRsALuafHKNcCVwa1UDscWHg4TH2oGLpHKXJ2mymhvwcfbGyq/FHh7NgG0HXltx0zpo8S9wORBxAXxRGDqJXZul1LwTmicg5TAQXRVGFh92DW/ZCS26wB+M14Qv9ghPNqMdGdA347vBYa9YNJAhPJbpAQ7g0dwTDWfKxgmUFseivMX3ZarVbnuAV/eVxVzbBlRezdrSXYRP9vrkG/Zq3AkNDdjg7sO3H9mmJ18/1XB0a2jg2kD4gi1Uzm4HXIAt+9nFubXnG7FaTivLX4yMDAylvkz38UCi2QHcQFzW/LUr7uSdp36fb8Zoa5i8/u3I07fuNp+kdpj+zbAGcAPOKl/K63T/8YuzW2l3NM0Wfxh+pS8M3gpSVH+KG+BG+Bgqa/6l26YuvtOuZlfjdPnHkfdv2clzxiQK8sIW9d7OQ7+e6VSr63l+4cP7hu64Z8fbIHt1zr68/8U/lrvV+k/X3z2NDXFudusKAAAAAElFTkSuQmCC" alt="JS logo" className='w-10 h-10 overflow-none inset-1/4 relative' />
                 </div>
