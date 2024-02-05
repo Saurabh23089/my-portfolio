@@ -59,7 +59,7 @@ const ProjectList = () => {
 
 
   const fetchprojects = async() => {
-     await fetch('../src/projects.json')
+     await fetch('/src/projects.json')
      .then((res) => res.json())
     .then((result) => {
       console.log(result);
