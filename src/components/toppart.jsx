@@ -22,45 +22,6 @@ function classNames(...classes) {
 export default function Example() {
 
   const[ismobile,setismobile]=useState(false)
-  // useEffect(() => {
-  //   const checkScreenSize = () => {
-  //     // setismobile(window.innerWidth <= 600);
-  //     if(window.innerWidth<=600){
-  //       setismobile(prev => !prev)
-  //       console.log("1");
-  //     }
-  //     // console.log(window.innerWidth <= 600);
-  //     console.log("1");
-  //     console.log(ismobile);
-  //   };
-
-  //   // Initial check
-  //   checkScreenSize();
-
-  //   // Add event listener for window resize
-  //   // window.addEventListener('resize', checkScreenSize);
-
-  //   // // Clean up event listener on component unmount
-  //   // return () => {
-  //   //   window.removeEventListener('resize', checkScreenSize);
-  //   // };
-  // }, []);
-
-  // useEffect(() => {
-  //   console.log(ismobile);
-  //   if (ismobile) {
-  //     console.log(window.innerWidth);
-  //     navigation.map((item) => {
-  //       return item.href = "#" + item.href
-  //     })
-  //     setismobile(false);
-  //   }
-  // },[])
-
-  // console.log(ismobile);
-
- 
-
 
 
   return (
