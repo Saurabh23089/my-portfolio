@@ -21,7 +21,7 @@ const Contact = () => {
                     </div>
 
 
-                    <div className='flex flex-row items-center justify-center  md:mr-20 gap-4 vs:mb-8 mb-16'>
+                    <div className='flex flex-row items-center justify-center  md:mr-20 gap-4 mb-16'>
                         {/* LinkedIn */}
                         <a href="http://linkedin.com/in/saurabh-kumar-96667220a" target="_blank" rel="noopener noreferrer" className="" >
                             <FaLinkedin className="w-8 h-8 text-blue-100 hover:text-blue-800 " />
