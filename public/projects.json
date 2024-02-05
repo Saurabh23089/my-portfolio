@@ -2,7 +2,7 @@
         {
                 "title":"Movie Directory Project",
                 "description":"I am working on an eCommerce designed in Figma to pass into code to improve my skills with new technologies to be able to get a job.",
-                "projectimage":"./src/images/Project1.jpg",
+                "projectimage":"../src/images/Project1.jpg",
                 "techstack":["HTML","CSS","Javascript","ReactJS","Firebase"],
                 "deployed":"https://moviezzsite.netlify.app/",
                 "github":"https://github.com/Saurabh23089/project2"
@@ -14,7 +14,7 @@
             {
                 "title":"Calculator",
                 "description":"I am working on an eCommerce designed in Figma to pass into code to improve my skills with new technologies to be able to get a job.",
-                "projectimage":"./src/images/Project2.jpg",
+                "projectimage":"../src/images/Project2.jpg",
                 "techstack":["HTML","CSS","Javascript"],
                 "deployed":"https://saurabh23089.github.io/Ganit-Mitra/",
                 "github":"https://github.com/Saurabh23089/Ganit-Mitra"
@@ -26,7 +26,7 @@
             {
                 "title":"Random Quote Generator",
                 "description":"I am working on an eCommerce designed in Figma to pass into code to improve my skills with new technologies to be able to get a job.",
-                "projectimage":"./src/images/Project3.jpg",
+                "projectimage":"../src/images/Project3.jpg",
                 "techstack":["HTML","CSS","Javascript","ReactJS"],
                 "deployed":"https://saurabh23089.github.io/react-project1/",
                 "github":"https://github.com/Saurabh23089/react-project1"
