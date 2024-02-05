@@ -1,5 +1,5 @@
 import { FaLinkedin, FaGithub } from 'react-icons/fa';
-import myimage from '../myimage.jpg';
+// import myimage from '../myimage.jpg';
 
 
 const Intro = () => {
@@ -8,10 +8,10 @@ const Intro = () => {
 
     return (
         <div className="bg-[#F9F9F9] w-full relative overflow-hidden top-20 shadow-md mb-10" id="home">
-            <div className="relative w-screen lg:grid lg:grid-cols-2 pt-12">
-                <div className="relative inset-x-1/4 vs:inset-x-1/3 pt-2 lg:order-1">
-                    <img src={myimage} alt="Saurabh's image" className=" w-56 h-56 vs:w-72 vs:h-72 rounded-full" />
-                </div>
+            <div className="flex w-screen lg:grid  pt-12 justify-center text-center justify-items-center">
+                {/* <div className="relative inset-x-1/4 vs:inset-x-1/3 pt-2 lg:order-1">
+                    <img src={} alt="Saurabh's image" className=" w-56 h-56 vs:w-72 vs:h-72 rounded-full" />
+                </div> */}
                 <div className="">
                     <h1 className='mt-4  font-bold text-center sm:text-6xl text-5xl text-[#0d0d0d] whitespace-normal'>Full Stack Web</h1>
                     <br/>
