@@ -119,7 +119,7 @@ export default function Example() {
           </div>
 
           <Disclosure.Panel className="sm:hidden">
-            <div className="space-y-1 px-2 pb-3 pt-2 top:10 mt-1">
+            <div className="space-y-1 px-2 pb-3 pt-2 top:10 mt-6">
               {navigation.map((item) => (
                 <Disclosure.Button
                   key={item.name}
