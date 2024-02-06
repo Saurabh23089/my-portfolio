@@ -36,7 +36,7 @@ export default function Example() {
                   <span className="relative -inset-0.5" />
                   <span className="sr-only">Open main menu</span>
                   {open ? (
-                    <XMarkIcon className="block h-6 w-6" aria-hidden="true" />
+                    <XMarkIcon className="block h-6 w-6 mt-12" aria-hidden="true" />
                   ) : (
                     <Bars3Icon className="h-6 w-6 " aria-hidden="true" />
                   )}
@@ -119,7 +119,7 @@ export default function Example() {
           </div>
 
           <Disclosure.Panel className="sm:hidden">
-            <div className="space-y-1 px-2 pb-3 pt-2 top:10">
+            <div className="space-y-1 px-2 pb-3 pt-2 top:10 mt-12">
               {navigation.map((item) => (
                 <Disclosure.Button
                   key={item.name}

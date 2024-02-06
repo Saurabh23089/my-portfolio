@@ -7,7 +7,7 @@ const Intro = () => {
     
 
     return (
-        <div className="bg-[#F9F9F9] w-full relative overflow-hidden top-20 shadow-md mb-10" id="home">
+        <div className="bg-[#F9F9F9] w-full relative overflow-hidden top-20 shadow-md mb-10 " id="home">
             <div className="flex w-screen lg:grid  pt-12 justify-center text-center justify-items-center">
                 {/* <div className="relative inset-x-1/4 vs:inset-x-1/3 pt-2 lg:order-1">
                     <img src={} alt="Saurabh's image" className=" w-56 h-56 vs:w-72 vs:h-72 rounded-full" />
