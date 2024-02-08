@@ -1,4 +1,14 @@
      [
+
+        {
+                "title":"Baatcheet",
+                "description":"Developed a real-time chatting web application, enabling users to engage in conversations with all registered users on Baatcheet",
+                "projectimage":"/images/Project4.jpg",
+                "techstack":["HTML","CSS","Javascript","ReactJS","Firebase"],
+                "deployed":"https://baatchet.netlify.app/",
+                "github":"https://github.com/Saurabh23089/Baatcheet"
+        },
+
         {
                 "title":"Movie Directory Project",
                 "description":"Developed a web app that renders a curated collection of Hollywood movies along with their basic plot and rating. ",
