@@ -1,8 +1,17 @@
-# React + Vite
+Portfolio Website
+Welcome to my portfolio website! This website serves as a showcase of my projects, displaying all my projects with their deployed links and their github repo links. The website is designed to be responsive, ensuring a seamless viewing experience across various devices.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Usage
+To explore my portfolio website, simply navigate to the following URL: https://my-portfolio-git-master-saurabh-kumars-projects-02372508.vercel.app/
 
-Currently, two official plugins are available:
+Here's what you can do on the website:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+View all my projects.
+Browse through my projects, which are fetched from the projects.json file.
+Click on each project to access its deployed link and repository link.
+Technologies Used - 
+HTML, 
+CSS, 
+JavaScript, 
+ReactJS,
+Tailwind CSS
