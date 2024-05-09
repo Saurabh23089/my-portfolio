@@ -6,7 +6,7 @@ const Contact = () => {
     return (
         <div className="overflow-hidden" id="contact">
             <div className="flex flex-col items-center justify-center text-center">
-                <h1 className="mx-4 text-[#767676]">Get in Touch</h1>
+                <h1 className="mx-4 text-[#767676] mt-8 text-xl">Get in Touch</h1>
                 <p className="mt-6 mx-20 text-center overflow-x-hidden text-xl mb-10 text-[#767676]">I'm actively currently looking for any new opportunities, my inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you!</p>
                 <a href="mailto:saurabh.kumar.e21@nsut.ac.in" target="_blank" className='mb-20'>
                     <button class="bg-[#546472] hover:bg-[#4B5563] text-white font-bold py-2 px-4 rounded text-xl text-[#D1D5DB]">
@@ -43,18 +43,7 @@ const Contact = () => {
                             <FaInstagram className="w-8 h-8 text-gray-100 hover:text-gray-800" />
                         </a>
                     </div>
-
-
-
-                   
-                    
-
                 </div>
-
-
-
-
-
             </div>
         </div>
     )

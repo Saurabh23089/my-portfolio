@@ -7,7 +7,6 @@ import {useEffect } from 'react';
 
 
 const navigation = [
-  // { name: 'Dashboard', href: '#', current: true },
   { name: 'Home',id:"home",href:"#home"},
   { name: 'About',id:"about",href:"#about"},
   { name: 'Projects',id:"projects",href:"#projects"},
@@ -44,7 +43,7 @@ export default function Example() {
               </div>
               <div className="flex flex-1 items-center justify-between sm:justify-start">
                 <div className="flex flex-shrink-0 items-center">
-                 <p className='text-[#DADDE2]'>Saurabh Kumar</p>
+                 <p className='text-[#505153] text-xl'>Saurabh Kumar</p>
                 </div>
                 <div className="hidden sm:ml-auto vs:block">
                   <div className="flex justify-end space-x-8">
@@ -60,7 +59,7 @@ export default function Example() {
                   isDynamic={true}
                   className={classNames(
                     'text-gray-300 hover:bg-gray-700 hover:text-white',
-                    'rounded-md px-3 py-2 text-sm font-medium'
+                    'rounded-md px-3 py-2 text-sm font-medium cursor-pointer'
                   )}
                 >
                   {item.name}
@@ -119,7 +118,7 @@ export default function Example() {
           </div>
 
           <Disclosure.Panel className="sm:hidden">
-            <div className="space-y-1 px-2 pb-3 pt-2 top:10 mt-6">
+            <div className="space-y-2 px-2 pb-3 pt-2 top:10 mt-12">
               {navigation.map((item) => (
                 <Disclosure.Button
                   key={item.name}
